@@ -1,0 +1,65 @@
+<html>
+    <head>
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    </head>
+
+    <body>
+
+    <!--Nav bar-->
+    <nav class="blue">
+      <div class="nav-wrapper">
+        <div class="col s12">
+          <a href="#!" class="brand-logo">Chistes del Parka</a>
+          <ul class="side-nav">
+            <li><a href="#"><i class="mdi-action-search"></i></a></li>
+            <li><a href="#"><i class="mdi-action-view-module"></i></a></li>
+            <li><a href="#"><i class="mdi-navigation-refresh"></i></a></li>
+            <li><a href="#"><i class="mdi-navigation-more-vert"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Chiste del Dia-->
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Chiste del Dia</span>
+            <p style="white-space:pre-wrap; width:80ex">Una noche, Chozas y su señora dormían plácidamente en la cama. Chozas, se había obsesionado con el golf desde que vio a Tiger Woods, no paraba de soñar con juego con Tiger,cuando de un limpio codazo le provocó un moretón en la espalda de su mujer.
+-¡Roberto, qué codazo me has dado!
+-Mira cariño, perdona, pero es que estaba en el hoyo 9 a punto de embocar un putt y...
+-Nada, nada, tranquilo que yo te entiendo.
+A la media hora, Chozas le incrustó el codo de nuevo, pero esta vez en el riñón.
+-¡¡Roberto, otra vez!!
+-Perdona cariño, es que estaba en el 16 en un bunker, con un hierro tres y...
+-Bueno, tranquilo, no pasa nada.
+Pero, cuando Chozas ya estaba en el hoyo 18...
+-¡¡¡Robertooooo!!! Mira, pasa lo del 9 porque ibas a embocar un putt, pasa lo del 16 porque era un bunker, ¡pero lo que no pasa es que me tengas que arrancar los pelos del coño para ver hacia donde va el aire!</p>
+          </div>
+          <center><div class='share-button'></div></center>
+          <div class="card-action">
+            <img class="circle responsive-img" src="images/parka_img.jpg">
+            <a href="#">Anterior</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!--Import jQuery before materialize.js-->
+      <script src='js/share.min.js'></script>
+      <script>
+      var share = new Share(".share-button", {
+        networks: {
+          facebook: {
+            app_id: "152636585955",
+          }
+        }
+      });
+      </script>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+</html>
